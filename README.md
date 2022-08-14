@@ -3,15 +3,27 @@
 ## GO useful commands
 
 ```bash
+# list go version
+go version
+
 # compile binary file
 go build -o bin/main main.go
 ./bin/main
 
 # compile, execute and delete binary file
-go run main.go
+go run web/main.go
 
 # format go file
-go fmt main.go
+go fmt web/main.go
+
+# test go file
+go test web/handlers/beer_test.go
+
+# init go modules manager
+go mod init https://github.com/eduardolagolima/curso-desenvolvimento-web-com-go
+
+# add third party package
+go get github.com/gorilla/mux
 ```
 
 ## SQLite useful commands
