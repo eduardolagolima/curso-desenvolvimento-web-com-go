@@ -1,4 +1,4 @@
-# curso-desenvolvimento-web-com-go
+# Desenvolvimento Web com Go - Elton Minetto
 
 ## GO useful commands
 
